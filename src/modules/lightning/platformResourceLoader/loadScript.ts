@@ -1,3 +1,5 @@
+import { type LightningElement } from "lwc";
+
 const patchElementWithScript = (element: Element, scriptUrl: string) => {
     if (!element) {
         return;
@@ -10,7 +12,7 @@ const patchElementWithScript = (element: Element, scriptUrl: string) => {
     }
 }
 
-export const loadScript = async (_, url) => {
+export const loadScript = async (_: LightningElement, url: string) => {
     patchElementWithScript(document.body, url);
     await new Promise(resolve => setTimeout(resolve, 200));
 };
