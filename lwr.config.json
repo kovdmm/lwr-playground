@@ -19,6 +19,11 @@
             "urlPath": "/public/assets"
         },
         {
+            "alias": "assetsDir",
+            "dir": "$rootDir/src/assets/mapbox",
+            "urlPath": "/mapbox"
+        },
+        {
             "dir": "$rootDir/node_modules/@salesforce-ux/design-system/assets",
             "urlPath": "/public/slds/assets"
         },
