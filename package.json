@@ -17,7 +17,6 @@
   },
   "dependencies": {
     "@lwrjs/core": "^0.18.3",
-    "@salesforce/apex": "file:src/apex-mocks",
     "lightning-base-components": "^1.21.6-alpha",
     "lwc": "latest",
     "lwr": "0.18.3"

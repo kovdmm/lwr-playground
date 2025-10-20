@@ -2044,48 +2044,7 @@
     fs-extra "^11.2.0"
     jsonc-parser "^3.3.1"
 
-"@lwrjs/core@0.18.3":
-  version "0.18.3"
-  resolved "https://registry.npmjs.org/@lwrjs/core/-/core-0.18.3.tgz"
-  integrity sha512-AwwFgmUmCqSVE0yZtjz4bCmpi9SWCUgMa7eZ9Q/MtE7PDfPDpkvC/IFfdeNu5F00m9SQqLgnkk2FgafDiL/bYQ==
-  dependencies:
-    "@lwrjs/app-service" "0.18.3"
-    "@lwrjs/asset-registry" "0.18.3"
-    "@lwrjs/asset-transformer" "0.18.3"
-    "@lwrjs/base-view-provider" "0.18.3"
-    "@lwrjs/base-view-transformer" "0.18.3"
-    "@lwrjs/client-modules" "0.18.3"
-    "@lwrjs/config" "0.18.3"
-    "@lwrjs/diagnostics" "0.18.3"
-    "@lwrjs/esbuild" "0.18.3"
-    "@lwrjs/fs-asset-provider" "0.18.3"
-    "@lwrjs/fs-watch" "0.18.3"
-    "@lwrjs/html-view-provider" "0.18.3"
-    "@lwrjs/instrumentation" "0.18.3"
-    "@lwrjs/loader" "0.18.3"
-    "@lwrjs/lwc-module-provider" "0.18.3"
-    "@lwrjs/lwc-ssr" "0.18.3"
-    "@lwrjs/markdown-view-provider" "0.18.3"
-    "@lwrjs/module-bundler" "0.18.3"
-    "@lwrjs/module-registry" "0.18.3"
-    "@lwrjs/npm-module-provider" "0.18.3"
-    "@lwrjs/nunjucks-view-provider" "0.18.3"
-    "@lwrjs/o11y" "0.18.3"
-    "@lwrjs/resource-registry" "0.18.3"
-    "@lwrjs/router" "0.18.3"
-    "@lwrjs/server" "0.18.3"
-    "@lwrjs/shared-utils" "0.18.3"
-    "@lwrjs/static" "0.18.3"
-    "@lwrjs/view-registry" "0.18.3"
-    chokidar "^3.6.0"
-    esbuild "^0.9.7"
-    fs-extra "^11.2.0"
-    path-to-regexp "^6.3.0"
-    qs "^6.13.0"
-    rollup "^2.79.2"
-    ws "^8.18.0"
-
-"@lwrjs/core@^0.18.3":
+"@lwrjs/core@0.18.3", "@lwrjs/core@^0.18.3":
   version "0.18.3"
   resolved "https://registry.yarnpkg.com/@lwrjs/core/-/core-0.18.3.tgz#bb4ec81c25fda5b34fc0293b6afab31596357feb"
   integrity sha512-AwwFgmUmCqSVE0yZtjz4bCmpi9SWCUgMa7eZ9Q/MtE7PDfPDpkvC/IFfdeNu5F00m9SQqLgnkk2FgafDiL/bYQ==
@@ -2833,9 +2792,6 @@
   version "2.28.0"
   resolved "https://registry.npmjs.org/@salesforce-ux/design-system/-/design-system-2.28.0.tgz"
   integrity sha512-UN0n5pesgOh9QhhVsQHGLn2R49E5JMyAHnZYr65s5ILtxZVVsFfaLyoHl+LknltjR7RfBZ4cmIbUWexhAip9VA==
-
-"@salesforce/apex@file:src/apex-mocks":
-  version "1.0.0"
 
 "@salesforce/pwa-kit-dev@3.9.2":
   version "3.9.2"
